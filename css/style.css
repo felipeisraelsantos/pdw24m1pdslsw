@@ -1,0 +1,11 @@
+    /* Definindo rolagem suave para navegadores compatíveis */
+    html {
+        scroll-behavior: smooth;
+    }
+
+    section {
+        height: 100vh;
+        /* Altura da seção será a altura da tela */
+        padding-top: 70px;
+        /* Espaço para compensar a barra de navegação */
+    }
