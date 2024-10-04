@@ -1,11 +1,47 @@
-    /* Definindo rolagem suave para navegadores compatíveis */
-    html {
-        scroll-behavior: smooth;
-    }
+body {
+    scroll-behavior: smooth;
+    /* Rolagem suave */
+    margin: 0;
+    /* Remover margens do body */
+}
 
-    section {
-        height: 100vh;
-        /* Altura da seção será a altura da tela */
-        padding-top: 70px;
-        /* Espaço para compensar a barra de navegação */
-    }
+#sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    height: 100%;
+    width: 250px;
+    /* Largura fixa para o sidebar */
+    padding: 48px 0 0;
+    /* Espaço para o cabeçalho */
+    background-color: #f8f9fa;
+}
+
+#sidebar .nav-link {
+    padding: 10px 15px;
+}
+
+.content {
+    margin-left: 250px;
+    /* Espaço para o sidebar */
+    padding: 20px;
+}
+
+section {
+    padding: 60px 0;
+    /* Espaçamento para a rolagem */
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around; /* Espaçamento entre as imagens */
+    align-items: center; /* Alinhar as imagens verticalmente */
+    margin: 1rem;
+}
+.image-container img {
+    max-width: 100%; /* Ajusta a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    width: 45%; /* Largura das imagens */
+}
