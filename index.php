@@ -24,7 +24,7 @@
 
     <div class="content">
         <section id="passo0">
-            <div class="pt-3">
+            <div class="m-3 text-center">
                 <h1>Plataforma de Desenvolvimento em Software Livre e Servidores Web</h1>
             </div>
             <br>
